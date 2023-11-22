@@ -36,12 +36,21 @@ class MassPoint:
         self.q = q
         self.radius = radius
 
-    
-
+    def draw(self, win, color):
+        '''
+        With the help of pygame library draw our particle on 
+        the pygame window.
+            Inputs:
+                    win (pygame.Surface): The surface on which the particle
+                                          will be drawn.
+                    color (tuple (int, int, int)): The color in RGB format.
+        '''
+        pygame.draw.circle(win, color, (self.r[0], self.r[1]), self.radius)
 
     
     def __str__(self):
         return 'A '+ str(self.m) +' units of mass point in ' + '(' + str(self.r[0]) + ',' + str(self.r[1]) + ')'
     
-help(MassPoint)
+
+
     
