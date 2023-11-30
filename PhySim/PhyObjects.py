@@ -4,13 +4,6 @@ from random import randint, random
 import os 
 
 class MassPoint:
-    '''
-    In physics one of the core concepts is the mass point; with 
-    this concept, you can study the kinematics and dynamics of 
-    every object (at least in the classical world) and construct 
-    models to describe solids, gases, and liquids. The MassPoint 
-    class aims to abstract this concept for later usage.
-    '''
     def __init__(self, r_0, v_0, m, a_0 = [0,0], q = 0, radius = 1, color = (0, 180, 200)):
         '''
         Defines a point mass with its initial position and 
