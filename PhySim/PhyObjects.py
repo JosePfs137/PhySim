@@ -184,6 +184,10 @@ class Particles:
         
         else:
             raise TypeError(str(type(index)) + ' object not supported')
+        
+    def add(self, x):
+        self.P += (x,)
+        self.N += 1
     
     def MeanRadius(self):
         meanR = 0
@@ -324,6 +328,7 @@ class Simulation:
         self.name = name
 
         self.WIN = pygame.display.set_mode(size)
+        pygame.display.set_caption(name)
 
         pygame.font.init()
         self.font = pygame.font.SysFont('consolas', 24)
