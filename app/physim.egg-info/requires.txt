@@ -1,0 +1,5 @@
+numpy>=1.26.2
+pygame>=2.5.2
+
+[dev]
+twine>=4.0.2

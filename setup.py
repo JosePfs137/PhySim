@@ -15,7 +15,7 @@ setup(
     author = 'JosePfs137',
     author_email = 'jose.floressald@alumno.buap.mx',
     classifiers = [
-        'Programing Language :: Python :: 3.12'
+        'Programing Language :: Python :: 3.10'
     ] ,
     install_requires = [
         'numpy >= 1.26.2',
