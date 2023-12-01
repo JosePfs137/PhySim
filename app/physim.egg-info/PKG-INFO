@@ -5,7 +5,8 @@ Summary: A bunch of classes that should help to make your own Physics Simulation
 Home-page: https://github.com/JosePfs137/PhySim.git
 Author: JosePfs137
 Author-email: jose.floressald@alumno.buap.mx
-Classifier: Programing Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
 Requires-Python: >= 3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
